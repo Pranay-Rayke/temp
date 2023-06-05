@@ -1,0 +1,19 @@
+.nav{
+    --bs-nav-link-padding-y: 1.5rem;
+    --bs-nav-link-color: white;
+    --bs-nav-link-hover-color: white;
+      background-color: gray;
+      padding-left: 40px;
+      
+}
+
+.nav-link:hover{
+    background-color: black;
+    color:whitesmoke;
+    border-radius: 0%;
+}
+
+.dropdown-toggle:hover, .nav-link:hover, .dropdown-item:hover, .dropdown-menu:hover{
+    data-bs-toggle:"dropdown";
+}
+
